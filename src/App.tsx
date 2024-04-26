@@ -34,8 +34,15 @@ function App() {
 
         <div className={css.Footer}>
           &copy; {new Date().getFullYear()} Stlt.io - All Rights Reserved
-          <br />
           <img src={Icon} alt='Stlt.io' />
+          v.&nbsp;
+          {
+            (
+              document.head.querySelector(
+                'meta[name="build-version"]'
+              ) as HTMLMetaElement
+            ).content
+          }
         </div>
       </div>
     </div>
