@@ -7,11 +7,19 @@ import css from './App.module.scss'
 import stealth from '@stltio/stealth'
 
 function App() {
-  const [data, setData] = useState({ local: {}, remote: {}, id: null, ms: 0 })
+  const [data, setData] = useState({
+    local: {},
+    remote: {},
+    visitorId: null,
+    ms: 0
+  })
 
   useEffect(() => {
     const init = async () => {
-      const s = await stealth()
+      const s = await stealth({
+        apiKey:
+          'd98e52ee68b7560139463c4f4babe37b18158af68dbca731cc21d471e11b0bf8'
+      })
       setData(s)
     }
     init()
@@ -24,7 +32,7 @@ function App() {
 
         <div className={css.Stealth}>
           <span>Your ID:</span>
-          <code>{data.id}</code>
+          <code>{data.visitorId}</code>
           <span>Performance (in ms):</span>
           <code>{data.ms}</code>
           <span>Local information:</span>
