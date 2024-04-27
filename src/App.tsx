@@ -7,16 +7,15 @@ import css from './App.module.scss'
 import stealth from '@stltio/stealth'
 
 function App() {
-  const [data, setData] = useState({ local: {}, remote: {}, id: '' })
-
-  const init = useCallback(async () => {
-    const s = await stealth()
-    setData(s)
-  }, [])
+  const [data, setData] = useState({ local: {}, remote: {}, id: null, ms: 0 })
 
   useEffect(() => {
+    const init = async () => {
+      const s = await stealth()
+      setData(s)
+    }
     init()
-  }, [init])
+  }, [])
 
   return (
     <div className={css.Layout}>
@@ -26,6 +25,8 @@ function App() {
         <div className={css.Stealth}>
           <span>Your ID:</span>
           <code>{data.id}</code>
+          <span>Performance (in ms):</span>
+          <code>{data.ms}</code>
           <span>Local information:</span>
           <code>{JSON.stringify(data.local, null, 2)}</code>
           <span>Remote information:</span>
