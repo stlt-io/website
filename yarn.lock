@@ -1789,10 +1789,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@stltio/stealth@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@stltio/stealth/-/stealth-0.2.1.tgz#77ace603a15d1d0a5863cdceec051a3c676620e7"
-  integrity sha512-ydh57EbM14BlpeSsyVXV2tJq+PrzSYe8WspsCPM1XpwwP4/bgxto3clDbEmYqeoyw1mQGzb3ExOJnJT+DIWjxg==
+"@stltio/stealth@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@stltio/stealth/-/stealth-0.3.0.tgz#205a0cdd49145808d7fffce97d327f0a0af5d487"
+  integrity sha512-i05F3/eXJQ/C4NGKHwNMXai6MpJx5tAs8yk2HN35k9Vdxt3LlKToP9yu88+8JKkKqCb22bXzgNGwxcVrm44VVw==
   dependencies:
     axios "^1.6.8"
     jssha "^3.3.1"
