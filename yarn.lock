@@ -1789,10 +1789,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@stltio/stealth@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@stltio/stealth/-/stealth-0.3.0.tgz#205a0cdd49145808d7fffce97d327f0a0af5d487"
-  integrity sha512-i05F3/eXJQ/C4NGKHwNMXai6MpJx5tAs8yk2HN35k9Vdxt3LlKToP9yu88+8JKkKqCb22bXzgNGwxcVrm44VVw==
+"@stltio/stealth@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@stltio/stealth/-/stealth-0.4.1.tgz#3e6cfca031e8a573a99fbbd726216d6490e613d7"
+  integrity sha512-+IkQLMM983jWDHUv4K/2cAs025OGvHxnKv1I71sxJqUJPbUN+R6xVsvhBcK4qXfsW3Wef3RlfNtAxWBWvZ45pQ==
   dependencies:
     axios "^1.6.8"
     jssha "^3.3.1"
@@ -1938,10 +1938,10 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
-"@testing-library/react@^15.0.5":
-  version "15.0.5"
-  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-15.0.5.tgz#71bcc875e1142c3924cac7bdd7dc9a6db0bb1d42"
-  integrity sha512-ttodVWYA2i2w4hRa6krKrmS1vKxAEkwDz34y+CwbcrbZUxFzUYN3a5xZyFKo+K6LBseCRCUkwcjATpaNn/UsIA==
+"@testing-library/react@^15.0.6":
+  version "15.0.6"
+  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-15.0.6.tgz#76be2e9e6da98c044823dfbc9d62ad3f10a3a401"
+  integrity sha512-UlbazRtEpQClFOiYp+1BapMT+xyqWMnE+hh9tn5DQ6gmlE7AIZWcGpzZukmDZuFk3By01oiqOf8lRedLS4k6xQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^10.0.0"
@@ -2164,10 +2164,10 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-16.18.96.tgz"
   integrity sha512-84iSqGXoO+Ha16j8pRZ/L90vDMKX04QTYMTfYeE1WrjWaZXuchBehGUZEpNgx7JnmlrIHdnABmpjrQjhCnNldQ==
 
-"@types/node@^20.12.7":
-  version "20.12.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.7.tgz#04080362fa3dd6c5822061aa3124f5c152cff384"
-  integrity sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==
+"@types/node@^20.12.8":
+  version "20.12.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.8.tgz#35897bf2bfe3469847ab04634636de09552e8256"
+  integrity sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==
   dependencies:
     undici-types "~5.26.4"
 
