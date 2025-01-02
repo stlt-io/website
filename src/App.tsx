@@ -17,8 +17,8 @@ function App() {
   useEffect(() => {
     const init = async () => {
       const s = await stealth({
-        apiKey:
-          'd98e52ee68b7560139463c4f4babe37b18158af68dbca731cc21d471e11b0bf8'
+        // apiKey:
+        //   'd98e52ee68b7560139463c4f4babe37b18158af68dbca731cc21d471e11b0bf8'
       })
       setData(s)
     }
