@@ -16,13 +16,17 @@ function App() {
     local: {},
     remote: {},
     visitorId: '',
-    ms: 0
+    ms: 0,
+    incognito: {
+      engine: '',
+      isPrivate: false
+    }
   })
 
   useEffect(() => {
     const init = async () => {
       const s = await stealth(config)
-      setData(s)
+      setData(s as any)
     }
     init()
   }, [])
@@ -55,6 +59,7 @@ function App() {
 
             <span>Your ID:</span>
             <code>{data.visitorId}</code>
+
             <span>Performance (in ms):</span>
             <code>{data.ms}</code>
             <span>Local information:</span>
