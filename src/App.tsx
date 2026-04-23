@@ -10,7 +10,7 @@ function App() {
   const [data, setData] = useState({
     local: {},
     remote: {},
-    visitorId: null,
+    visitorId: '',
     ms: 0
   })
 
@@ -19,6 +19,8 @@ function App() {
       const s = await stealth({
         // apiKey:
         //   'd98e52ee68b7560139463c4f4babe37b18158af68dbca731cc21d471e11b0bf8'
+        debug: true,
+        cache: false
       })
       setData(s)
     }
