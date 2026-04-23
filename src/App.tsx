@@ -7,7 +7,8 @@ import css from './App.module.scss'
 import stealth from '@stltio/stealth'
 
 const config = {
-  cache: false
+  cache: false,
+  debug: true
 }
 
 function App() {
